@@ -1,5 +1,18 @@
 .wrapper {
   height: 5rem;
   background-color: rgb(128, 93, 160);
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper button {
+  width: 100px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(170, 122, 214);
+}
+.wrapper button:hover {
+  color: white;
 }

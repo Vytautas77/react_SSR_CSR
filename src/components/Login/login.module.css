@@ -1,0 +1,22 @@
+.wrapper {
+  width: 220px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.164);
+  border: 1px solid rgb(165, 159, 40);
+  position: absolute;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+  right: 5%;
+  margin: 0;
+  transform: translate(5%, -10%);
+  box-sizing: border-box;
+}
+.wrapper input {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  padding: 0.2rem 0.7rem;
+}

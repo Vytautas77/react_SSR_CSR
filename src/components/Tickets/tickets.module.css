@@ -1,0 +1,14 @@
+.wrapper {
+  padding: 1rem 3rem;
+  background-color: rgb(212, 171, 250);
+  height: fit-content;
+  display: flex;
+  gap: 1rem;
+}
+.ticket {
+  border: 1px solid black;
+  width: 200px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
